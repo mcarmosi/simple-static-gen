@@ -1,0 +1,21 @@
+#tagline {
+    font-style:italic;
+}
+
+#location {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: -1em;
+}
+
+.title_abstract { 
+    border: none;
+    text-align: left;
+    padding: 0.5rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    display: table;
+}

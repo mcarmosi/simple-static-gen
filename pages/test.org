@@ -1,0 +1,2 @@
+* Header
+Wow look a [[file:index.md][link]] to the index.

@@ -1,0 +1,19 @@
+* Idiom & Purpose
+This is the smallest full-featued static site generator that I feel
+comfortable using. Everything that is supposed to be copied to the
+server goes in ~pages/~, everything else in the root helps pandoc
+generate.
+* Features
+- [X] Simple css: put overrides in ~addenda.css~, leave ~simple.css~
+  untouched; it is our baseline taken from the simplecss project
+- [ ] SimpleCSS compatabile Template
+- [ ] Link Rewriting
+- [ ] Equations
+- [ ] BibTeX
+- [ ] deploy command
+- [ ] Theorem Environments
+* Reconstruction
+1. simple.css from simplecss project
+2. Default pandoc html5 template
+   ~pandoc -D html5 > simple.html5~
+3. Delete some stuff
