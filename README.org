@@ -6,8 +6,9 @@ generate.
 * Features
 - [X] Simple css: put overrides in ~addenda.css~, leave ~simple.css~
   untouched; it is our baseline taken from the simplecss project
-- [ ] SimpleCSS compatabile Template
-- [ ] Link Rewriting
+- [X] SimpleCSS compatabile Template
+- [ ] Link Rewriting (from ~.md~ or ~.org~ to ~.html~)
+- [ ] Get ~<nav>~ section of template working properly
 - [ ] Equations
 - [ ] BibTeX
 - [ ] deploy command

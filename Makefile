@@ -20,11 +20,11 @@ all : $(ORG_TARGETS) $(MD_TARGETS) $(STATIC_TARGETS)
 
 $(MD_TARGETS): build/%.html: pages/%.md
 	@mkdir -p $(dir $@)
-	pandoc -s -c simple.css -c addenda.css -t html5 --template simple.html5 $< -o $@
+	pandoc -s -c simple.css -c addenda.css -t html5 --template simple.html5 --shift-heading-level-by=1 $< -o $@
 
 $(ORG_TARGETS): build/%.html: pages/%.org
 	@mkdir -p $(dir $@)
-	pandoc -s -c simple.css -c addenda.css -t html5 --template simple.html5 $< -o $@
+	pandoc -s -c simple.css -c addenda.css -t html5 --template simple.html5 --shift-heading-level-by=1 $< -o $@
 
 $(STATIC_TARGETS): build/%: pages/%
 	@mkdir -p $(dir $@)

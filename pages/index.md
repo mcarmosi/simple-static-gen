@@ -1,3 +1,5 @@
+% Test Index
+
 # First-Level Headline
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
