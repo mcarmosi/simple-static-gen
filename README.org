@@ -7,7 +7,7 @@ generate.
 - [X] Simple css: put overrides in ~addenda.css~, leave ~simple.css~
   untouched; it is our baseline taken from the simplecss project
 - [X] SimpleCSS compatabile Template
-- [ ] Link Rewriting (from ~.md~ or ~.org~ to ~.html~)
+- [ ] [[https://stackoverflow.com/questions/40993488/convert-markdown-links-to-html-with-pandoc][Link Rewriting]] (from ~.md~ or ~.org~ to ~.html~) with [[https://github.com/wlupton/pandoc-lua-logging][logging]]
 - [ ] Get ~<nav>~ section of template working properly
 - [ ] Equations
 - [ ] BibTeX
